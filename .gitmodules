@@ -1,0 +1,3 @@
+[submodule "vendor/switch"]
+	path = vendor/switch
+	url = https://github.com/sandbox-quantum/switch.git

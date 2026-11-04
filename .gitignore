@@ -1,0 +1,34 @@
+# Local credentials and private keys
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local Python environments and generated output
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+.tox/
+
+# Frontend dependencies and generated build output
+node_modules/
+dist/
+build/
+.next/
+out/
+.turbo/
+
+.incidentpilot-workspaces/
+.incidentpilot-data/
